@@ -1,0 +1,322 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* PARTE CABECERA */ 
+.logos-redes {
+    background-color: rgb(20, 126, 20);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    height: 47px;
+}
+
+.logos-redes a {
+    color: white;
+    padding: 14px;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.container{
+    height: 60px;
+}
+
+.collapse a{
+    padding-top: 35px;
+}
+
+.navbar {
+    background-color: #e1d4bd;
+}
+
+#logo-texto{
+    font-family: 'Creepster';
+    color: #28a745;
+    font-size: 30px;
+}
+
+.navbar-nav .nav-link {
+    color: #7c4b1f;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* PARTE MAIN-SECTION */ 
+
+/* TITULOS */
+.titulos{
+    font-family: 'Great Vibes'; 
+    font-size: 3.8rem; 
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #8B4513;
+    text-align: center; 
+    margin: 2rem 0; 
+}
+
+h3{
+    font-family: 'Great Vibes';
+}
+
+.text-end h4{
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+#titulo-special{
+    margin-top: 310px;
+}
+
+#nosotros{
+    padding: 25px 0px;
+}
+
+/* CAROUSEL */ 
+.carousel-item {
+    height: 60vh; 
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-text {
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.text-end a{
+    padding-top: 2px;
+}
+
+.btn-green {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn-green:hover {
+    background-color: #14e642;
+}
+/* PARTE EMPRESA */ 
+.section-empresa {
+    padding: 60px 0;
+    background-color: #e1d4bd;
+}
+
+.seccion-texto p{
+    align-items: center;
+    text-align: center;
+    color: #7c4b1f;
+    margin: 0 130px;
+}
+
+.location-card{
+    margin-top: 85px;
+}
+
+.location-card img{
+    border: 2px solid #8B4513;
+    border-radius: 20px;
+}
+
+.location-card p{
+    color: #714218;
+    font-weight: bolder;
+}
+
+/* PARTE VIDEO */
+.video-section {
+    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0.8)), url('../imagen/imagen-fondo.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 50px 15px;
+    position: relative;
+}
+
+.video-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.video-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.play-button i {
+    font-size: 30px;
+    color: black;
+}
+
+/* PARTE LOCALES */ 
+.section-locales{
+    display: flex;
+    justify-content: space-around;
+    background-color: #714218;
+    height: 470px;
+    padding: 20px;
+}
+
+.card-body{
+    align-items: center;
+    text-align: center;
+    background-color: none;
+    color: white;
+    background-color: #714218;
+}
+
+.card-body p{
+    color: white;
+}
+
+.btn-primary{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 9px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 85px;
+    margin: 10px;
+}
+
+.card{
+    background-color: none;
+}
+
+/* PARTE CARTA */
+.section-carta{
+    margin: 0px 50px;
+    font-family: 'Great Vibes';
+    font-size: 40px;
+    color: #7c4b1f;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    color: #7c4b1f;
+    border: 3px solid black;
+}
+th, td {
+    border: 1px solid #c5a488; 
+    padding: 10px;
+    color: #7c4b1f;
+}
+
+th {
+    font-weight: bold;
+    color: #7b6d64;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+/* PARTE FORMULARIO */
+.contact-section {
+    padding: 3rem 1rem;
+}
+
+.contact-section img {
+    border-radius: 15px;
+    border: 2px solid #8B4513;
+    object-fit: cover;
+}
+
+.btn-custom {
+    background-color: transparent;
+    border: 2px solid #7d5a33;
+    color: #7d5a33;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #7d5a33;
+    color: white;
+}
+
+.form-control, .form-control:focus {
+    border: none;
+    border-bottom: 2px solid #7d5a33;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* PARTE FOOTER */ 
+
+footer{
+    background-color: #714218;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 500px;
+}
+
+footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PARTE FOOTER */ 
+
+footer{
+    background-color: #714218;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 500px;
+}
+
+footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

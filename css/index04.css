@@ -1,0 +1,237 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* PARTE CABECERA */ 
+.logos-redes {
+    background-color: rgb(20, 126, 20);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    height: 47px;
+}
+
+.logos-redes a {
+    color: white;
+    padding: 14px;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.container{
+    height: 60px;
+}
+
+.collapse a{
+    padding-top: 35px;
+}
+
+.navbar {
+    background-color: #e1d4bd;
+}
+
+#logo-texto{
+    font-family: 'Creepster';
+    color: #28a745;
+    font-size: 30px;
+}
+
+.navbar-nav .nav-link {
+    color: #7c4b1f;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* PARTE MAIN-SECTION */ 
+
+/* TITULOS */
+.titulos{
+    font-family: 'Great Vibes'; 
+    font-size: 3.8rem; 
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #8B4513;
+    text-align: center; 
+    margin: 2rem 0; 
+}
+
+h3{
+    font-family: 'Great Vibes';
+}
+
+.text-end h4{
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+#titulo-special{
+    margin-top: 310px;
+}
+
+#nosotros{
+    padding: 25px 0px;
+}
+
+/* PARTE MENU */
+.bienvenida {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-content {
+    padding: 1rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.btn-success {
+    background-color: #0F9D58;
+    border: none;
+    transition: background-color 0.3s ease;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: orange;
+}
+
+/* PARTE NOSOTROS */
+.nosotros-section {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    background-color: #e1d4bd;
+}
+
+.container-nosotros{
+    margin-left: 50px;
+}
+.nosotros-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6b4226;
+    margin-bottom: 35px;
+}
+.nosotros-text {
+    font-size: 1.2rem;
+    color: #6b4226;
+    margin-bottom: 65px;
+    line-height: 1.5;
+}
+.reservas-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 220px;
+}
+.reservas-btn:hover {
+    background-color: orange;
+    color: white;
+}
+.nosotros-image img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 250px;
+    height: 350px;
+    width: 500px;
+}
+
+/* PARTE FORMULARIO */
+.contact-section {
+    padding: 3rem 1rem;
+}
+
+.contact-section img {
+    border-radius: 15px;
+    border: 2px solid #8B4513;
+    object-fit: cover;
+}
+
+.btn-custom {
+    background-color: transparent;
+    border: 2px solid #7d5a33;
+    color: #7d5a33;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #7d5a33;
+    color: white;
+}
+
+.form-control, .form-control:focus {
+    border: none;
+    border-bottom: 2px solid #7d5a33;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+/* PARTE REDES SOCIALES */
+.social-section {
+    background-color: #c2a169;
+    color: white;
+    padding: 50px 0;
+    margin-top: 400px;
+    height: 290px;
+}
+.social-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #4caf50;
+}
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+/* PARTE FOOTER */ 
+footer{
+    background-color: #714218;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 0px;
+}
+
+footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

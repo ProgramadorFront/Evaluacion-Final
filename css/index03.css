@@ -1,0 +1,219 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* PARTE CABECERA */ 
+.logos-redes {
+    background-color: rgb(20, 126, 20);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    height: 47px;
+}
+
+.logos-redes a {
+    color: white;
+    padding: 14px;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.container{
+    height: 60px;
+}
+
+.collapse a{
+    padding-top: 35px;
+}
+
+.navbar {
+    background-color: #e1d4bd;
+}
+
+#logo-texto{
+    font-family: 'Creepster';
+    color: #28a745;
+    font-size: 30px;
+}
+
+.navbar-nav .nav-link {
+    color: #7c4b1f;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* PARTE MAIN-SECTION */ 
+
+/* TITULOS */
+.titulos{
+    font-family: 'Great Vibes'; 
+    font-size: 3.8rem; 
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #8B4513;
+    text-align: center; 
+    margin: 2rem 0; 
+}
+
+h3{
+    font-family: 'Great Vibes';
+}
+
+.text-end h4{
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+#titulo-special{
+    margin-top: 310px;
+}
+
+#nosotros{
+    padding: 25px 0px;
+}
+
+/* PARTE MENU */
+.bienvenida {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-content {
+    padding: 1rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.btn-success {
+    background-color: #0F9D58;
+    border: none;
+    transition: background-color 0.3s ease;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: orange;
+}
+
+/* PARTE DESCARGAR MENU */
+.carta-menu {
+    background-color: #F8EDE3; 
+    color: #5C3D2E; 
+    height: 250px;
+}
+
+.carta-menu .titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5C3D2E; 
+}
+
+.carta-menu .descripcion {
+    font-size: 1rem;
+    color: #5C3D2E; 
+}
+
+.btn-brown {
+    background-color: #8C6239; 
+    color: #daa577; 
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.btn-brown:hover {
+    background-color: #6A482A;
+    color: #FFFFFF;
+}
+
+/* PARTE VIDEO */ 
+.tradiciones {
+    background-color: #3d793d;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    height: 390px;
+}
+.tradiciones h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.tradiciones p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tradiciones-img {
+    width: 75%;
+    height: 240px;
+    border-radius: 25px;
+}
+
+/* PARTE LOCALES */
+.locales {
+    height: 335px;
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.locales h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7b5b3f;
+}
+.local-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin: 2px 20px;
+}
+.local-card img {
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    border: 3px solid #8B4513;
+}
+.local-card p {
+    font-size: 0.9rem;
+    color: #714218;
+    margin: 0;
+    text-align: justify;
+}
+
+/* PARTE FOOTER */ 
+footer{
+    background-color: #714218;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
